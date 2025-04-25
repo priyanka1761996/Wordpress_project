@@ -1,0 +1,13 @@
+# Ignore WordPress uploads and core files (just in case)
+/../../uploads/
+/../../plugins/
+/../../themes/* !./kubio/
+
+# IDE / system files
+.DS_Store
+*.log
+*.sql
+*.env
+.vscode/
+.idea/
+node_modules/
